@@ -1,5 +1,5 @@
 public class Borne {
-    private int id;
+    private final int id;
     private TypeRecharge typeRecharge;
     private Carte carteInseree;
 
