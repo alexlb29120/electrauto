@@ -8,7 +8,7 @@ public class Main {
         borne1.insererPrise();
         try {
             carte1.decompterCharge(10f);
-            borne1.charger(2);
+            borne1.charger(5);
         } catch (Exception e) {
             System.out.println("Erreur : " + e.getMessage());
         }
